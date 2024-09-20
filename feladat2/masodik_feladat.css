@@ -42,3 +42,38 @@
     list-style: none;
     margin: 5px;
 }
+
+#container3{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background-color: yellow;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;    
+    position: relative;
+}
+.elem2{
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    list-style: none;
+    margin: 5px;
+}
+#container4{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background-color: yellow;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items:flex-end;   
+    position: relative;
+}
+.elem3{
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    list-style: none;
+    margin: 5px;
+}
